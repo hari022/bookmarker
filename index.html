@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Book marker</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body onload="fetchData()">
+
+<div class="container">
+    <div class="header clearfix">
+        <h3 class="text-muted">Book marker</h3>
+    </div>
+
+    <div class="jumbotron">
+        <form id="myForm">
+            <div class="form-group">
+                <label >Enter Site Name</label>
+                <input type="text" class="form-control" id="siteName" placeholder="Enter Site Name">
+            </div>
+            <div class="form-group">
+                <label >Enter Site URL</label>
+                <input type="text" class="form-control" id="siteUrl" placeholder="Enter Site URL">
+            </div>
+            <button  class="btn btn-primary"  type="submit" name="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="row marketing">
+        <div id="result" class="col-lg-12">
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2016 Bookmarker, Inc.</p>
+    </footer>
+
+</div> <!-- /container -->
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
